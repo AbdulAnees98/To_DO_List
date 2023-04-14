@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  tasklist: [],
+  tasklist: ["Electric bill","compelete Homework","send money"],
 };
 const TodoSlice = createSlice({
   name: "Todo",
